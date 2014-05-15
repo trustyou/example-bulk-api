@@ -1,9 +1,10 @@
-example-bulk-api
-================
+Bulk API
+--------
 
 Demonstrate best practices of using the TrustYou Bulk API to crawl many hotels at once. Written in Python, though the script can be rewritten in any other language, obviously. See crawl_bulk_api.py; Python is self-documenting ;)
 
-# Installation
+Installation
+------------
 
 Runs with Python 2 and 3. Requires [Python Requests](http://docs.python-requests.org/en/latest/):
 
@@ -11,7 +12,8 @@ Runs with Python 2 and 3. Requires [Python Requests](http://docs.python-requests
 pip install requests
 ```
 
-# Example
+Example
+-------
 
 Crawl the seal and review summary widgets in French, Spanish and Italian for all TrustYou IDs contained in trustyou_ids.txt
 
